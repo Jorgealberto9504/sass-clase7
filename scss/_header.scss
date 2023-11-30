@@ -1,21 +1,48 @@
 header {
     background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 
-    nav ul {
-        background-color: aqua;
-        list-style: none;
+    img {
+        width: 10rem;
+    }
+
+    nav {
+        ul {
+            background-color: black;
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+        }
 
         li {
             a {
                 text-decoration: none;
+                color: white;
+                margin: 15px;
+                font-family: Arial, Helvetica, sans-serif;
             }
-            .enlace-verde{
-                color: green;
+
+            .enlace-empresas {
+                color: yellow;
             }
         }
     }
-    #enlace-plataforma{
-        color: red;
-        text-decoration: none;
+
+    .boton-plataforma {
+        display: flex;
+        align-items: center;
+        img {
+            width: 1.5rem;
+        }
+
+        #enlace-plataforma {
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
     }
+
 }
