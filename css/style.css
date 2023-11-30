@@ -1,0 +1,25 @@
+header {
+  background-color: black;
+}
+header nav ul {
+  background-color: aqua;
+  list-style: none;
+}
+header nav ul li a {
+  text-decoration: none;
+}
+header nav ul li .enlace-verde {
+  color: green;
+}
+header #enlace-plataforma {
+  color: red;
+  text-decoration: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*# sourceMappingURL=style.css.map */
