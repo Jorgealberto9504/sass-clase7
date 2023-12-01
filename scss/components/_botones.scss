@@ -1,0 +1,17 @@
+.button{
+    padding: 10px;
+    background-color: yellow;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: $font-family;
+    color: black;
+    transition: 0.5s;
+    &:hover{
+        background-color: #1A1A1A;
+        border: 1px solid yellow;
+        color: white;
+    }
+}
+.button02{
+    @extend .button;
+}

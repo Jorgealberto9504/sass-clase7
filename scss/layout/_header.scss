@@ -1,3 +1,7 @@
+/*mi primer variable*/
+$font-family: Arial, Helvetica, sans-serif;
+$color-de-fondo: red;
+
 header {
     display: flex;
     align-items: center;
@@ -22,7 +26,12 @@ header {
                 text-decoration: none;
                 color: white;
                 margin: 15px;
-                font-family: Arial, Helvetica, sans-serif;
+                transition: 0.5s;
+                font-family: $font-family;
+                &:hover{
+                    color: yellow;
+            
+                }
             }
 
             .enlace-empresas {

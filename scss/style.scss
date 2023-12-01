@@ -1,3 +1,5 @@
-@import "header";
-@import "reset";
-@import "cursos";
+@import "layout/header";
+@import "base/reset";
+@import "layout/cursos";
+@import "layout/promociones";
+@import "components/botones";
