@@ -49,6 +49,7 @@ header .boton-plataforma #enlace-plataforma {
 
 body {
   background-color: #1A1A1A;
+  background-color: #1A1A1A;
 }
 
 main .cursos-online h1 {
@@ -94,6 +95,13 @@ main .cursos-online div {
   background-color: #1A1A1A;
   border: 1px solid yellow;
   color: white;
+}
+
+h2 {
+  font-size: 25px;
+  font-family: "Arial";
+  font-weight: 900;
+  color: yellow;
 }
 
 /*# sourceMappingURL=style.css.map */

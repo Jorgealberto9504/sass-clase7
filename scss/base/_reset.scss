@@ -1,3 +1,5 @@
+$color-fondo: white;
+
 *{
     margin: 0;
     padding: 0;
@@ -5,4 +7,10 @@
 }
 body{
     background-color: #1A1A1A;
+    @if $color-fondo == white{
+        background-color: #1A1A1A;
+    }@else{
+        background-color: blue;
+    }
 }
+

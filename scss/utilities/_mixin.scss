@@ -1,0 +1,10 @@
+@mixin fuente-parrafos ($size, $family, $grosor, $color){
+    font-size: $size;
+    font-family: $family;
+    font-weight: $grosor;
+    color: $color;
+}
+
+h2{
+    @include fuente-parrafos (25px, "Arial", 900, yellow);
+}
